@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .reg {
+        background-color: lightblue;
+        width: 20%;
+        margin: 300px auto;
+        padding-bottom: 20px;
+        border: 2px solid black;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding-bottom: 5px;
+    }
+
+    table {
+        height: 150px;
+        font-size: 25px;
+    }
+
+    .text {
+        height: 30px;
+        width: 120%;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    .button .bt {
+        width: 100px;
+        height: 30px;
+    }
+</style>
+
+<body>
+    <div class="reg">
+        <h1>Đăng ký</h1>
+        <div class="container">
+            <form>
+                <table>
+                    <tr>
+                        <td><span class="material-symbols-outlined">
+                            person
+                            </span><label for="username">Username:</label></td>
+                        <td><input id="username" type="text" required class="text"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="material-symbols-outlined">
+                            key
+                            </span><label for="password">Password:</label></td>
+                        <Td><input id="password" type="password" required class="text"></Td>
+                    </tr>
+                </table>
+                <div class="button">
+                    <button class="bt"> Đăng ký </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

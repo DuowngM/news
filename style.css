@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+}
+.logo {
+    width: 125px;
+    height: 55px;
+    margin-right: 100px;
+}
+.input{
+    width: 466px;
+    height: 34px;
+    margin-top: 5px;
+    float: left;
+}
+.concho {
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.logo2{
+    width: 40px;
+    height: 34px;
+    margin-top: 5px;
+    position: relative;
+    right: 20px;
+}
+.name {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.menu {
+    background-color:  #2FA1B3;
+    font-size: 30px;
+    height: 50px;
+    padding-left: 450px;
+    position: sticky;
+    top:0px;
+}
+.menu .bt1 {
+    height: 40px;
+    width: 80px;
+    background-color: #2FA1B3;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-left: 1px solid white;
+    text-align: center;
+}
+.menu .bt2 {
+    width: 200px;
+    background-color: #2FA1B3;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.bt1:hover {
+    cursor: pointer;
+}
+.bt2:hover {
+    cursor: pointer;
+}
+.img2 {
+    width: 625px;
+    height: 340px;
+    transition: all .3s ease;
+    border: 1px solid black;
+}
+main {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;    
+}
+.main1 {
+    width: 35%;
+}
+.img2{
+    overflow: hidden;
+}
+.img2 img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.option {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.option1 .img3 {
+    width: 198px;
+    height: 125px;
+    
+}
+.option2 .img3 {
+    width: 198px;
+    height: 125px;
+}.option3 .img3 {
+    width: 198px;
+    height: 125px;
+}
+.info1{
+    width: 175px;
+    height: 200px;
+    font-size: 20px;
+}
+.info2{
+    width: 175px;
+    height: 200px;
+    font-size: 20px;
+}
+.info3{
+    width: 175px;
+    height: 200px;
+    font-size: 20px;
+}
+.imgl {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.news1 {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.news1 .imgl:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.news1 {
+    overflow: hidden;
+}
+.t1:hover b{
+    color: red;
+}
+.t2:hover b{
+    color: aqua;
+}
+.option1{
+    overflow: hidden;
+}
+.option2{
+    overflow: hidden;
+}
+.option3{
+    overflow: hidden;
+}
+.option1 .img3:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.option2 .img3:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.option3 .img3:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 1s;
+}
